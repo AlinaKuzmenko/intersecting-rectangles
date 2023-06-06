@@ -1,0 +1,7 @@
+/node_modules
+/build
+/build_rollup
+.DS_Store
+npm-debug.log*
+/storybook-static
+.idea
