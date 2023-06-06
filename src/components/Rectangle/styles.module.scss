@@ -1,0 +1,21 @@
+.rectangle {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 200px;
+  padding: 8px 16px;
+  border: 1px solid rgba(255, 255, 255, .3);
+  border-radius: 8px;
+  .heading {
+    grid-column: span 2;
+    margin: 0 0 8px;
+  }
+  .label {
+    grid-column: span 1;
+    display: flex;
+    gap: 8px;
+    margin-bottom: 12px;
+    .input {
+      width: 50px;
+    }
+  }
+}
