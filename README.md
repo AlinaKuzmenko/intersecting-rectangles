@@ -1,6 +1,4 @@
-# Intersecting Rectangles
-
-
+# Intersecting Rectangles and Shortening URL Tasks
 
 ## To run the frontend ##
 1) Install dependencies
