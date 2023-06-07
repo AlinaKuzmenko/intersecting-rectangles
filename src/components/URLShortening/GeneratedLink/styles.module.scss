@@ -1,0 +1,13 @@
+.generatedLink {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+  max-width: 100%;
+  margin-bottom: 24px;
+  .link {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+}

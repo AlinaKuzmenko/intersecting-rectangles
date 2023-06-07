@@ -4,7 +4,7 @@ function Description() {
   return (
     <div className={styles.description}>
       <header>
-        <h1>Intersecting rectangles</h1>
+        <h2>Intersecting rectangles</h2>
       </header>
       <div className={styles.requirements}>
         <p>

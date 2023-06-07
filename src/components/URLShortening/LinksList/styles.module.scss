@@ -1,0 +1,27 @@
+.linksList {
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+  .list {
+    margin-top: 16px;
+    width: 100%;
+    .listItem {
+      display: grid;
+      grid-template-columns: 300px 1fr;
+      gap: 16px;
+      width: 100%;
+      span {
+        width: 100%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+      .shortUrl {
+
+      }
+      .longUrl {
+
+      }
+    }
+  }
+}

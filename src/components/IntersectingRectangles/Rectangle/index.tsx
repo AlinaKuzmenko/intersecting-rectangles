@@ -1,5 +1,5 @@
 import { BaseSyntheticEvent } from 'react';
-import { IRectangle } from '../../App.tsx';
+import { IRectangle } from '../../../App.tsx';
 import styles from './styles.module.scss';
 
 interface IRectangleProps {
